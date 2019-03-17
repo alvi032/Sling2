@@ -1,0 +1,12 @@
+.background{
+     background-image: url("BG.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0 100%;
+     height: 50vh;
+ }
+header img{
+    position: relative;
+    height: 250px;
+    /*!*top: 37vh;*! Don't want to use this as resizing will effect its position relative to background*/
+}
