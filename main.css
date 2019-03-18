@@ -3,7 +3,8 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: 0 100%;
-     height: 50vh;
+     /*height: 50vh;*/
+
  }
 nav{
     display: block;
@@ -66,7 +67,7 @@ nav p{
     padding-bottom: 1em;
 }
 .introbuttons button{
-    margin: 0 20px 0 20px;
+    margin: 0 20px 150px 20px;
     padding: 5px 15px 5px 15px;
 }
 .button1, .button2{
@@ -76,6 +77,8 @@ nav p{
     color: white;
     font-weight: bold;
     font-size: small;
+
+
 }
 .button1{
     background-color: #1fcfc4;
@@ -83,7 +86,8 @@ nav p{
 .button2{
     background-color: transparent;
 }
-
 header img{
     height: 150px;
+    position: absolute;
+    top: 375px;
 }
