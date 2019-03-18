@@ -68,7 +68,7 @@ nav p{
 }
 .introbuttons button{
     margin: 0 20px 150px 20px;
-    padding: 5px 15px 5px 15px;
+    padding: 0 15px 0 15px;
 }
 .button1, .button2{
     border-radius: 15px;
@@ -77,6 +77,8 @@ nav p{
     color: white;
     font-weight: bold;
     font-size: small;
+    display: flex;
+    align-items: center;
 
 
 }
@@ -85,6 +87,14 @@ nav p{
 }
 .button2{
     background-color: transparent;
+}
+.button2 span::before{
+    font-family: 'Material Icons';
+    content: 'play_circle_filled';
+    position: relative;
+    text-transform: lowercase;
+    font-size: 20px;
+    padding-right: 5px;
 }
 header img{
     height: 150px;
